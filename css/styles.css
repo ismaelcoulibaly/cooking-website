@@ -1,0 +1,84 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+
+:root,
+body, 
+header, 
+footer, 
+section, 
+article, 
+div, 
+ul, ol, li, 
+p, a, span,
+label, input, button {
+	font-family: 'Roboto', arial;
+};
+
+body {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.lead {
+	text-align: center;
+
+}
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: header, nav, ul, li, a, div.
+ */
+ .header {
+	background-image: url('../assets/parallax1.jpg');
+	/* Set a specific height */
+	height: 250px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+
+
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+#info {
+	text-align: center;
+
+}
